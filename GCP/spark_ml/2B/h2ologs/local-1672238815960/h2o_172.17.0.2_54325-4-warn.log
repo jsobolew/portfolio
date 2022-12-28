@@ -1,0 +1,394 @@
+12-28 14:47:01.335 172.17.0.2:54325      1147     Thread-4  WARN water.default: Flatfile configuration does not include self: /172.17.0.2:54325, but contains []
+12-28 14:47:02.981 172.17.0.2:54325      1147     Thread-4  WARN ai.h2o.sparkling.backend.utils.ProxyStarter: Tried using port 54323 for Flow proxy, but port was already occupied!
+12-28 14:50:33.530 172.17.0.2:54325      1147   099675-278  WARN water.default: _train: Dropping bad and constant columns: [features.26, features.25, features.69, features.28, features.27, features.22, features.66, features.21, features.65, features.68, features.23, features.67, features.29, features.62, features.61, features.20, features.63, features.60, features.37, features.36, features.39, features.38, features.33, features.32, features.35, features.73, features.72, features.31, features.30, features.74, features.71, features.70, features.5, features.48, features.6, features.47, features.7, features.8, features.49, features.43, features.46, features.4, features.45, features.9, features.40, features.42, features.41, features.15, features.59, features.58, features.17, features.16, features.11, features.55, features.10, features.13, features.57, features.12, features.56, features.18, features.51, features.50, features.53, features.52]
+12-28 14:50:33.572 172.17.0.2:54325      1147   099675-278  WARN water.default: _response: We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+12-28 14:50:33.792 172.17.0.2:54325      1147       FJ-1-5  WARN water.default: _response: We have detected that your response column has only 2 unique values (0/1). If you wish to train a binary model instead of a regression model, convert your target column to categorical before training.
+12-28 14:50:54.186 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:147.1 MB + POJO:632.9 MB + FREE:244.0 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 14:51:06.406 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:138.7 MB + POJO:670.5 MB + FREE:214.8 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:02:38.727 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:165.2 MB + POJO:653.1 MB + FREE:205.7 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:39.057 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:650.1 MB + FREE:182.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:39.755 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:648.5 MB + FREE:183.9 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:40.426 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:616.3 MB + FREE:216.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:44.899 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:666.1 MB + FREE:166.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:47.026 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:678.3 MB + FREE:154.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:49.939 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:636.2 MB + FREE:196.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:50.620 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:649.9 MB + FREE:182.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:51.266 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:642.0 MB + FREE:190.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:52.631 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:667.6 MB + FREE:164.8 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:56.280 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:641.5 MB + FREE:190.9 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:56.921 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:631.5 MB + FREE:200.9 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:03:58.191 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:609.1 MB + FREE:223.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:00.902 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:652.2 MB + FREE:180.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:01.589 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:667.8 MB + FREE:164.6 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:02.250 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:602.8 MB + FREE:229.6 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:06.314 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:632.6 MB + FREE:199.9 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:07.589 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:640.2 MB + FREE:192.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:08.286 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:650.9 MB + FREE:181.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:09.768 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:671.5 MB + FREE:160.9 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:12.706 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:653.1 MB + FREE:179.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:13.539 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:671.2 MB + FREE:161.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:14.395 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:671.2 MB + FREE:161.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:14.850 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:560.1 MB + FREE:272.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:15.273 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:565.9 MB + FREE:266.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:15.645 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:566.9 MB + FREE:265.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:16.003 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:569.9 MB + FREE:262.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:16.349 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:572.9 MB + FREE:259.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:16.711 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:571.9 MB + FREE:260.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.044 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:571.9 MB + FREE:260.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.048 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:576.9 MB + FREE:255.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.051 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:577.9 MB + FREE:254.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.404 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:577.9 MB + FREE:254.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.764 172.17.0.2:54325      1147   Thread-301  WARN water.default: Swapping!  OOM, (K/V:191.6 MB + POJO:577.9 MB + FREE:254.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:17.784 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:191.6 MB + POJO:579.0 MB + FREE:253.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:39.078 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:244.4 MB + POJO:532.6 MB + FREE:247.0 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:48.924 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:270.8 MB + POJO:536.5 MB + FREE:216.7 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:56.105 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:490.5 MB + FREE:236.3 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:56.370 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:508.4 MB + FREE:218.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:57.483 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:490.3 MB + FREE:236.5 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:04:58.668 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:442.3 MB + FREE:284.5 MB == MEM_MAX:1.00 GB), desiredKV=203.5 MB OOM!
+12-28 15:04:59.051 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.1 MB == MEM_MAX:1.00 GB), desiredKV=242.7 MB OOM!
+12-28 15:04:59.404 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.1 MB == MEM_MAX:1.00 GB), desiredKV=242.7 MB OOM!
+12-28 15:04:59.806 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=178.8 MB OOM!
+12-28 15:05:00.259 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.8 MB OOM!
+12-28 15:05:00.612 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.8 MB OOM!
+12-28 15:05:00.991 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.8 MB OOM!
+12-28 15:05:01.348 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.6 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.8 MB OOM!
+12-28 15:05:01.727 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.6 MB + FREE:303.2 MB == MEM_MAX:1.00 GB), desiredKV=240.8 MB OOM!
+12-28 15:05:02.086 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.6 MB + FREE:303.2 MB == MEM_MAX:1.00 GB), desiredKV=240.8 MB OOM!
+12-28 15:05:02.439 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.5 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.9 MB OOM!
+12-28 15:05:02.786 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.5 MB + FREE:304.2 MB == MEM_MAX:1.00 GB), desiredKV=242.9 MB OOM!
+12-28 15:05:03.146 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.5 MB + FREE:303.2 MB == MEM_MAX:1.00 GB), desiredKV=240.9 MB OOM!
+12-28 15:05:03.567 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.5 MB + FREE:304.3 MB == MEM_MAX:1.00 GB), desiredKV=243.0 MB OOM!
+12-28 15:05:03.966 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.4 MB == MEM_MAX:1.00 GB), desiredKV=243.3 MB OOM!
+12-28 15:05:04.320 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.4 MB == MEM_MAX:1.00 GB), desiredKV=243.3 MB OOM!
+12-28 15:05:04.688 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.4 MB + FREE:304.4 MB == MEM_MAX:1.00 GB), desiredKV=243.3 MB OOM!
+12-28 15:05:05.112 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.4 MB == MEM_MAX:1.00 GB), desiredKV=179.3 MB OOM!
+12-28 15:05:05.474 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.4 MB == MEM_MAX:1.00 GB), desiredKV=243.3 MB OOM!
+12-28 15:05:05.837 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.4 MB OOM!
+12-28 15:05:06.193 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.4 MB OOM!
+12-28 15:05:06.538 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.4 MB OOM!
+12-28 15:05:06.893 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.4 MB OOM!
+12-28 15:05:07.248 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:07.604 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.3 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:07.963 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:08.329 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:08.782 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:09.141 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.6 MB == MEM_MAX:1.00 GB), desiredKV=243.6 MB OOM!
+12-28 15:05:09.502 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.5 MB == MEM_MAX:1.00 GB), desiredKV=243.5 MB OOM!
+12-28 15:05:09.951 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.2 MB + FREE:304.6 MB == MEM_MAX:1.00 GB), desiredKV=243.6 MB OOM!
+12-28 15:05:10.308 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.7 MB OOM!
+12-28 15:05:10.672 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.7 MB OOM!
+12-28 15:05:11.021 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:11.403 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:11.780 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:12.127 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:12.478 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:12.826 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:13.180 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:13.595 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=179.8 MB OOM!
+12-28 15:05:13.980 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:14.335 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:14.718 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:15.155 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.1 MB + FREE:303.7 MB == MEM_MAX:1.00 GB), desiredKV=241.7 MB OOM!
+12-28 15:05:15.510 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.1 MB + FREE:303.7 MB == MEM_MAX:1.00 GB), desiredKV=241.8 MB OOM!
+12-28 15:05:15.868 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:16.211 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:16.583 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:16.934 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:17.290 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:17.643 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:17.990 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:18.355 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=179.8 MB OOM!
+12-28 15:05:18.805 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=179.8 MB OOM!
+12-28 15:05:19.164 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:19.509 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:19.941 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:20.299 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.1 MB + FREE:303.7 MB == MEM_MAX:1.00 GB), desiredKV=241.8 MB OOM!
+12-28 15:05:20.647 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:20.998 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:21.369 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.8 MB OOM!
+12-28 15:05:21.724 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:22.073 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.1 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:22.419 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:22.767 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:23.119 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:23.467 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:23.890 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:24.247 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:24.592 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:25.006 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:25.359 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:25.730 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:26.161 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:26.507 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:26.859 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.7 MB == MEM_MAX:1.00 GB), desiredKV=241.9 MB OOM!
+12-28 15:05:27.210 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:27.554 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:27.898 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:28.239 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:28.656 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:29.025 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:29.374 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:29.770 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:30.187 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:30.538 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:30.889 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:31.237 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=179.9 MB OOM!
+12-28 15:05:31.587 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:31.948 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:32.297 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:32.640 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:32.989 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:33.337 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:33.793 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:34.168 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:34.597 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:35.067 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:35.461 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:35.831 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:36.180 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:36.536 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:36.878 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:37.228 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:37.579 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:37.933 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:38.309 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:38.749 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:39.127 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:39.612 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:40.043 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:40.390 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:40.736 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:41.097 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:41.463 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:05:41.812 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:42.162 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:42.512 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:42.862 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:05:43.208 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:43.625 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:05:43.992 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:44.410 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:44.972 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:45.415 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:46.264 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:47.029 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:47.610 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:48.204 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:48.764 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:49.161 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:49.508 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:49.941 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=179.9 MB OOM!
+12-28 15:05:50.335 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.7 MB == MEM_MAX:1.00 GB), desiredKV=243.9 MB OOM!
+12-28 15:05:50.728 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:51.247 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:51.915 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:52.382 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:05:52.838 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:53.342 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:54.004 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:05:54.416 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:05:54.816 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:55.323 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:55.678 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:56.026 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:56.381 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:56.727 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:05:57.079 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:57.550 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:57.888 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:58.237 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:58.654 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:59.027 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:59.395 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:05:59.773 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:00.202 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:00.546 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:00.908 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:01.261 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:01.610 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:01.960 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:02.319 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:02.668 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:03.020 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:06:03.412 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:06:03.884 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:04.271 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:04.619 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:05.050 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:05.408 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:05.758 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:06.104 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:06:06.459 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:06.810 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:07.161 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:07.541 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:07.888 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:08.259 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:08.711 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:09.078 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:09.432 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:09.829 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:10.227 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:10.576 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:10.924 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:11.300 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:11.797 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:12.156 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:12.504 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:12.849 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:424.0 MB + FREE:302.8 MB == MEM_MAX:1.00 GB), desiredKV=240.0 MB OOM!
+12-28 15:06:13.221 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:13.644 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:14.010 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:14.369 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:14.751 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:15.177 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:15.528 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:15.876 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:16.230 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:16.581 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:16.931 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=178.1 MB OOM!
+12-28 15:06:17.300 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:17.748 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:18.092 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:18.451 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:18.867 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:19.244 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:19.600 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:20.021 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:20.387 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:20.736 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:21.088 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:21.436 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:21.781 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:22.128 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:22.479 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:22.829 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:23.194 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:23.708 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:24.060 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:24.406 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.1 MB OOM!
+12-28 15:06:24.792 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:25.180 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:25.526 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:25.875 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:26.225 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:26.574 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:26.914 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:27.269 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:27.630 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:27.980 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:28.324 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:28.801 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:29.144 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:29.608 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:30.060 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:30.407 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:30.767 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:31.116 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:31.469 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:31.818 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:32.169 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:32.528 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:32.871 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:33.223 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:33.614 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:33.990 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:34.346 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:34.697 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:35.124 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:35.581 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:35.934 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:36.279 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:36.626 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:36.980 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:37.331 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:37.685 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:38.031 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:38.402 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:38.878 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:39.238 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:39.647 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:40.086 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:40.437 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:40.785 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:41.132 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:41.589 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:41.938 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:42.285 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:42.625 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:42.988 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:43.351 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:43.768 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:44.128 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:06:44.474 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:44.923 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:45.288 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:45.648 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:46.010 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:46.355 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:46.702 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:47.055 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:47.493 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:47.841 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:48.196 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:48.566 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:06:48.971 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:49.335 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:49.978 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:50.588 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:51.441 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:06:52.212 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:52.993 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:53.882 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:54.284 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:54.625 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:55.006 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:55.407 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.9 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:06:55.757 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:56.111 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:56.457 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:56.807 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:57.176 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:57.541 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:57.914 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:58.279 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:06:58.698 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:59.068 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:59.416 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:06:59.803 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:00.229 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:00.723 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:01.164 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:01.560 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:01.948 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:07:02.299 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:02.739 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:03.264 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=180.0 MB OOM!
+12-28 15:07:03.701 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:04.053 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:423.0 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.0 MB OOM!
+12-28 15:07:04.398 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:04.802 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:05.199 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:05.548 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:05.923 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:06.297 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:06.656 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.9 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:07:07.029 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:07.399 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:07.761 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.9 MB + FREE:303.8 MB == MEM_MAX:1.00 GB), desiredKV=242.1 MB OOM!
+12-28 15:07:08.126 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:08.474 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:08.949 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:09.350 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:421.9 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.1 MB OOM!
+12-28 15:07:09.915 172.17.0.2:54325      1147       FJ-1-3  WARN water.default: Swapping!  OOM, (K/V:297.2 MB + POJO:422.0 MB + FREE:304.8 MB == MEM_MAX:1.00 GB), desiredKV=244.0 MB OOM!
+12-28 15:07:10.652 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:475.0 MB + FREE:251.8 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:07:12.639 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:548.5 MB + FREE:178.2 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:27.968 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:564.8 MB + FREE:162.0 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:45.219 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:660.4 MB + FREE:66.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:47.305 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:655.4 MB + FREE:71.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:49.319 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:656.4 MB + FREE:70.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:52.378 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:628.7 MB + FREE:98.0 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:55.212 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:685.4 MB + FREE:41.4 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:08:55.909 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:557.8 MB + FREE:169.0 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!
+12-28 15:09:45.299 172.17.0.2:54325      1147   ice Thread  WARN water.default: Swapping!  GC CALLBACK, (K/V:297.2 MB + POJO:471.1 MB + FREE:255.7 MB == MEM_MAX:1.00 GB), desiredKV=128.0 MB OOM!

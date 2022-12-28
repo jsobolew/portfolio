@@ -1,0 +1,94 @@
+12-23 11:20:32.692 172.17.0.2:54321      265      Thread-4  INFO water.default: ----- H2O started  -----
+12-23 11:20:32.692 172.17.0.2:54321      265      Thread-4  INFO water.default: Build git branch: rel-zygmund
+12-23 11:20:32.693 172.17.0.2:54321      265      Thread-4  INFO water.default: Build git hash: 66987d5e0a4fb13625db2441f1445cb517354c81
+12-23 11:20:32.694 172.17.0.2:54321      265      Thread-4  INFO water.default: Build git describe: jenkins-3.38.0.2-53-g66987d5
+12-23 11:20:32.694 172.17.0.2:54321      265      Thread-4  INFO water.default: Build project version: 3.38.0.3
+12-23 11:20:32.695 172.17.0.2:54321      265      Thread-4  INFO water.default: Build age: 29 days
+12-23 11:20:32.695 172.17.0.2:54321      265      Thread-4  INFO water.default: Built by: 'jenkins'
+12-23 11:20:32.696 172.17.0.2:54321      265      Thread-4  INFO water.default: Built on: '2022-11-23 13:54:36'
+12-23 11:20:32.696 172.17.0.2:54321      265      Thread-4  INFO water.default: Found H2O Core extensions: [HiveTableImporter, StackTraceCollector, MojoPipeline, HiveFrameSaver, XGBoost]
+12-23 11:20:32.697 172.17.0.2:54321      265      Thread-4  INFO water.default: Processed H2O arguments: [-internal_security_conf_rel_paths, -name, sparkling-water-jovyan_local-1671794427001, -port_offset, 1, -hdfs_config, /tmp/spark-5eb53523-fff0-4443-a81d-17299a7d3df1/userFiles-63125daf-4418-486f-be9d-f24b92cac8ac/hdfs_conf2487606753870817310.xml, -log_level, INFO, -embedded, -baseport, 54321, -log_dir, /home/jovyan/work/h2ologs/local-1671794427001, -quiet, -flatfile, /tmp/spark-5eb53523-fff0-4443-a81d-17299a7d3df1/sparkling-water-3b8202b1-f168-4aae-8aea-ddc908d3324b/flatfile.txt]
+12-23 11:20:32.698 172.17.0.2:54321      265      Thread-4  INFO water.default: Java availableProcessors: 4
+12-23 11:20:32.698 172.17.0.2:54321      265      Thread-4  INFO water.default: Java heap totalMemory: 302.0 MB
+12-23 11:20:32.699 172.17.0.2:54321      265      Thread-4  INFO water.default: Java heap maxMemory: 1.00 GB
+12-23 11:20:32.699 172.17.0.2:54321      265      Thread-4  INFO water.default: Java version: Java 11.0.15 (from Private Build)
+12-23 11:20:32.700 172.17.0.2:54321      265      Thread-4  INFO water.default: JVM launch parameters: [-Xmx1g, -Dio.netty.tryReflectionSetAccessible=true]
+12-23 11:20:32.700 172.17.0.2:54321      265      Thread-4  INFO water.default: JVM process id: 265@4bb7dad6cccf
+12-23 11:20:32.701 172.17.0.2:54321      265      Thread-4  INFO water.default: OS version: Linux 5.10.16.3-microsoft-standard-WSL2 (amd64)
+12-23 11:20:32.701 172.17.0.2:54321      265      Thread-4  INFO water.default: Machine physical memory: 18.72 GB
+12-23 11:20:32.702 172.17.0.2:54321      265      Thread-4  INFO water.default: Machine locale: en_US
+12-23 11:20:32.703 172.17.0.2:54321      265      Thread-4  INFO water.default: X-h2o-cluster-id: 1671794431505
+12-23 11:20:32.703 172.17.0.2:54321      265      Thread-4  INFO water.default: User name: 'jovyan'
+12-23 11:20:32.704 172.17.0.2:54321      265      Thread-4  INFO water.default: IPv6 stack selected: false
+12-23 11:20:32.705 172.17.0.2:54321      265      Thread-4  INFO water.default: Possible IP Address: eth0 (eth0), 172.17.0.2
+12-23 11:20:32.706 172.17.0.2:54321      265      Thread-4  INFO water.default: Possible IP Address: lo (lo), 127.0.0.1
+12-23 11:20:32.708 172.17.0.2:54321      265      Thread-4  INFO water.default: H2O node running in unencrypted mode.
+12-23 11:20:32.710 172.17.0.2:54321      265      Thread-4  INFO water.default: Internal communication uses port: 54322
+12-23 11:20:32.711 172.17.0.2:54321      265      Thread-4  INFO water.default: Listening for HTTP and REST traffic on http://172.17.0.2:54321/
+12-23 11:20:32.712 172.17.0.2:54321      265      Thread-4  WARN water.default: Flatfile configuration does not include self: /172.17.0.2:54321, but contains []
+12-23 11:20:32.712 172.17.0.2:54321      265      Thread-4  INFO water.default: H2O cloud name: 'sparkling-water-jovyan_local-1671794427001' on /172.17.0.2:54321, static configuration based on -flatfile /tmp/spark-5eb53523-fff0-4443-a81d-17299a7d3df1/sparkling-water-3b8202b1-f168-4aae-8aea-ddc908d3324b/flatfile.txt
+12-23 11:20:32.713 172.17.0.2:54321      265      Thread-4  INFO water.default: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+12-23 11:20:32.714 172.17.0.2:54321      265      Thread-4  INFO water.default:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 jovyan@172.17.0.2'
+12-23 11:20:32.714 172.17.0.2:54321      265      Thread-4  INFO water.default:   2. Point your browser to http://localhost:55555
+12-23 11:20:33.104 172.17.0.2:54321      265      Thread-4  INFO water.default: Log dir: '/home/jovyan/work/h2ologs/local-1671794427001'
+12-23 11:20:33.106 172.17.0.2:54321      265      Thread-4  INFO water.default: Cur dir: '/home/jovyan/work'
+12-23 11:20:33.117 172.17.0.2:54321      265      Thread-4  INFO water.default: Distributed HTTP import not available (import from HTTP/HTTPS will be eager)
+12-23 11:20:33.133 172.17.0.2:54321      265      Thread-4  INFO water.default: HDFS subsystem successfully initialized
+12-23 11:20:33.141 172.17.0.2:54321      265      Thread-4  INFO water.default: S3 subsystem successfully initialized
+12-23 11:20:33.162 172.17.0.2:54321      265      Thread-4  INFO water.default: GCS subsystem successfully initialized
+12-23 11:20:33.162 172.17.0.2:54321      265      Thread-4  INFO water.default: Flow dir: '/home/jovyan/h2oflows'
+12-23 11:20:33.172 172.17.0.2:54321      265      Thread-4  INFO water.default: Cloud of size 1 formed [4bb7dad6cccf/172.17.0.2:54321]
+12-23 11:20:33.185 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, PARQUET, ORC, CSV]
+12-23 11:20:33.194 172.17.0.2:54321      265      Thread-4  INFO water.default: HiveTableImporter extension initialized
+12-23 11:20:33.196 172.17.0.2:54321      265      Thread-4  INFO water.default: StackTraceCollector extension initialized
+12-23 11:20:33.196 172.17.0.2:54321      265      Thread-4  INFO water.default: MojoPipeline extension initialized
+12-23 11:20:33.204 172.17.0.2:54321      265      Thread-4  INFO water.default: HiveFrameSaver extension initialized
+12-23 11:20:33.205 172.17.0.2:54321      265      Thread-4  INFO water.default: XGBoost extension initialized
+12-23 11:20:33.206 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered 5 core extensions in: 911ms
+12-23 11:20:33.207 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered H2O core extensions: [HiveTableImporter, StackTraceCollector, MojoPipeline, HiveFrameSaver, XGBoost]
+12-23 11:20:33.513 172.17.0.2:54321      265      Thread-4  INFO hex.tree.xgboost.XGBoostExtension: Found XGBoost backend with library: xgboost4j_gpu
+12-23 11:20:33.513 172.17.0.2:54321      265      Thread-4  INFO hex.tree.xgboost.XGBoostExtension: XGBoost supported backends: [WITH_GPU, WITH_OMP]
+12-23 11:20:33.647 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered: 279 REST APIs in: 440ms
+12-23 11:20:33.647 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered REST API extensions: [XGBoost, Algos, Amazon S3, Sparkling Water REST API Extensions, AutoML, Core V3, TargetEncoder, Core V4]
+12-23 11:20:33.779 172.17.0.2:54321      265      Thread-4  INFO water.default: Registered: 329 schemas in 131ms
+12-23 11:20:33.800 172.17.0.2:54321      265      Thread-4  INFO water.default: H2O started in 2321ms
+12-23 11:20:33.807 172.17.0.2:54321      265      Thread-4  INFO water.default: 
+12-23 11:20:33.812 172.17.0.2:54321      265      Thread-4  INFO water.default: Open H2O Flow in your web browser: http://172.17.0.2:54321
+12-23 11:20:33.837 172.17.0.2:54321      265      Thread-4  INFO water.default: 
+12-23 11:20:33.926 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.H2OContext: Connecting to H2O cluster.
+12-23 11:20:33.934 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.H2OContext: Trying to lock H2O cluster 172.17.0.2:54321 - sparkling-water-jovyan_local-1671794427001.
+12-23 11:20:34.058 172.17.0.2:54321      265    093114-325  INFO water.default: POST /3/CloudLock, parms: {reason=Locked from Sparkling Water.}
+12-23 11:20:34.067 172.17.0.2:54321      265    093114-325  INFO water.default: Locking cloud to new members, because requested via REST api. Reason: Locked from Sparkling Water.
+12-23 11:20:34.128 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/CloudLock successfully responded for the POST.
+12-23 11:20:34.154 172.17.0.2:54321      265    093114-321  INFO water.default: GET /3/verifyWebOpen, parms: {}
+12-23 11:20:34.227 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/verifyWebOpen successfully responded for the GET.
+12-23 11:20:34.230 172.17.0.2:54321      265    093114-324  INFO water.default: GET /3/verifyVersion, parms: {referenced_version=3.38.0.3}
+12-23 11:20:34.247 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/verifyVersion?referenced_version=3.38.0.3 successfully responded for the GET.
+12-23 11:20:34.277 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/Cloud successfully responded for the GET.
+12-23 11:20:34.281 172.17.0.2:54321      265    093114-324  INFO water.default: GET /3/LogLevel, parms: {}
+12-23 11:20:34.297 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/LogLevel successfully responded for the GET.
+12-23 11:20:34.299 172.17.0.2:54321      265    093114-326  INFO water.default: POST /99/Rapids, parms: {ast=(setTimeZone "UTC")}
+12-23 11:20:34.481 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/99/Rapids successfully responded for the POST.
+12-23 11:20:34.492 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.ProxyStarter: Trying to bind on port 54323 using wildcard ip address
+12-23 11:20:41.939 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.org.eclipse.jetty.server.Server: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+12-23 11:20:41.963 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.org.eclipse.jetty.server.handler.ContextHandler: Started a.h.o.e.j.s.ServletContextHandler@78e95f10{/,null,AVAILABLE}
+12-23 11:20:41.965 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.org.eclipse.jetty.server.AbstractConnector: Started ServerConnector@5d3d31bb{HTTP/1.1,[http/1.1]}{0.0.0.0:54323}
+12-23 11:20:41.966 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.org.eclipse.jetty.server.Server: Started @949926ms
+12-23 11:20:41.971 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.backend.utils.RestApiUtils: H2O node http://172.17.0.2:54321/3/Cloud successfully responded for the GET.
+12-23 11:20:42.024 172.17.0.2:54321      265      Thread-4  INFO ai.h2o.sparkling.H2OContext: Sparkling Water 3.38.0.3-1-3.2 started, status of context: 
+Sparkling Water Context:
+ * Sparkling Water Version: 3.38.0.3-1-3.2
+ * H2O name: sparkling-water-jovyan_local-1671794427001
+ * cluster size: 1
+ * list of used nodes:
+  (executorId, host, port)
+  ------------------------
+  (0,172.17.0.2,54321)
+  ------------------------
+
+  Open H2O Flow in browser: http://4bb7dad6cccf:54323 (CMD + click in Mac OSX)
+
+     
+12-23 11:20:42.092 172.17.0.2:54321      265    093114-325  INFO water.default: GET /3/Metadata/schemas/CloudV3, parms: {}
+12-23 11:20:42.134 172.17.0.2:54321      265    093114-327  INFO water.default: GET /3/Metadata/schemas/H2OErrorV3, parms: {}
+12-23 11:20:42.140 172.17.0.2:54321      265    093114-325  INFO water.default: GET /3/Metadata/schemas/H2OModelBuilderErrorV3, parms: {}
