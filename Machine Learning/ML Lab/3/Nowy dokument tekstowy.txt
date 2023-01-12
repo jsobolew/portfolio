@@ -1,0 +1,3 @@
+można zauważyć bardzo ciekawe zjawisko
+
+przy głębokości przeszykiwac równej jeden algorytm blokuje nam ścinanie, przy większej głębokości np. 5, nie myśli o ścinaniu a o posiadaniu jak największej liczby damek, nie koniecznie podejmuje racjonalne decyzje

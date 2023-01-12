@@ -3,3 +3,7 @@ torch==1.13.0
 torchdata==0.5.0
 torchtext==0.14.0
 spacy==3.4.2
+
+requests~=2.28.1
+beautifulsoup4~=4.11.1
+selenium~=4.7.2
