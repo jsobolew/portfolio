@@ -227,10 +227,10 @@ class TradingStrategies:
             # prediction = np.matmul(data['macd_hist'][i-4:i].values, coef)
             prediction = predictLinear(data['macd_hist'][i-window:i].values)
             if prediction > 0 and data['macd_hist'][i-1] < 0 and position < 1:
-                trades.append(Trade(data.index[i], "buy", data['High'][i]))
+                trades.append(Trade(data.index[i], "buy", data['Open'][i]))
                 position += 1
             elif prediction > 0 and data['macd_hist'][i-1] < 0 and position > 0:
-                trades.append(Trade(data.index[i], "sell", data['Low'][i]))
+                trades.append(Trade(data.index[i], "sell", data['Open'][i]))
                 position -= 1
         return trades
 
