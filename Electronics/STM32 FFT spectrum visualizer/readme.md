@@ -1,0 +1,3 @@
+# Description
+
+The project includes a matrix of controllable diodes WS2812B with a resolution of 12x9, each vertical line corresponding to a bandwidth of 1kHz. The audio signal taken from the microphone using the MAX9841 amplifier circuit is conducted to the STM32 ADC input. The signal is sampled over time and the FFT output level is given as height generation bars on the gauge. The device has several operating modes selected via the Bluetooth interface: smooth change of colors of the audio spectrum bars or other lighting effects.

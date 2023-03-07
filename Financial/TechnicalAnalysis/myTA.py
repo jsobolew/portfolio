@@ -60,9 +60,9 @@ def downloadAndMakeAnalysis(ticker_code, start, end, interval='1d'):
 def plotAnalysis(data, ticker_code, trades = []):
     inedxes = np.arange(0,len(data), len(data) // 9)
 
-    data['RSI'] = ta.RSI(data['Close'])
-    data['macd'], data['macd_signal'], data['macd_hist'] = ta.MACD(data['Close'])
-    data['SMA200'], data['SMA100'] = ta.SMA(data['Close'], 200), ta.SMA(data['Close'], 100)
+    # data['RSI'] = ta.RSI(data['Close'])
+    # data['macd'], data['macd_signal'], data['macd_hist'] = ta.MACD(data['Close'])
+    # data['SMA200'], data['SMA100'] = ta.SMA(data['Close'], 200), ta.SMA(data['Close'], 100)
     fig, ax = plt.subplots(4, 1, gridspec_kw={"height_ratios": [3, 1, 1, 1]}, figsize=(20,15))
 
     ax[0].plot(data['Close'].values)
