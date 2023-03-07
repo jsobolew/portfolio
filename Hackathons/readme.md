@@ -1,14 +1,15 @@
 # Hackathons
 
 ## Goldman Sachs 2021 EMEA Engineering Hackathon
-The task was Developer Experience, we proposed something called dependency manager. We won.
+The task was Developer Experience, we proposed something called a dependency manager. It was analyzing open-source libraries and assessing their security. We won.
+
 
 <img src="GS Hackathon.png "/>
 <br/><br/>
 
 
 ## Bitehack 2022 
-The task was semantic analysis. We proposed a method to find text speech and a method to prevent it on the internet.\
+The task was semantic analysis. We proposed a method to find hate speech and a method to prevent it on the internet.\
 repo: https://github.com/Laszer271/bitehack_golem1
 
 We won.
@@ -24,7 +25,7 @@ repo: https://github.com/mpiorczynski/cu-valley-hack-2022
 
 
 ## EHealth Hackathon 2022
-We proposed a system that allows for better patient medication compliance in therapy and finds dangerous drug interactions. We won.
+We proposed a system that allows for better patient medication by better compliance in therapy and finding dangerous drug-drug interactions. We won.
 
 <img src="eHealth.png "/>
 <br/><br/>
