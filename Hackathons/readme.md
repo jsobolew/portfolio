@@ -46,7 +46,3 @@ We predicted plane trajectories best and proposed the best method for future dev
 ## CuValley 2023
 We were given a task to estimate the water level in a river. Our solution had: a frontend, backend and machine learning model. Model estimated river level pretty accurately, we had a nice frontend connected to the backend with a model and database showcasing the result of our work. Surprisingly we didn't win. However, we found some very nice correlations between soil type and how long it takes water to flow into the river. We were also able to quantify it using the ML model.
 <br/><br/>
-
-
-## Summary
-I have won every hackathon I took part in unless the ones organized fully by the Polish government.
